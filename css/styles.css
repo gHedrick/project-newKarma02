@@ -1,4 +1,85 @@
 body {
   background-color: tan;
-
 }
+
+
+/* NAV SECTION */
+
+.top-navigation {
+  background-color: orange;
+  /* makes a div visible */
+  background-color: purple;
+  border: 2px solid black;
+}
+
+.top-navigation .links {
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  color: #838994;
+  font-size: 16px;
+  margin-top: 25px;
+  margin-right: 10px;
+  -webkit-font-smoothing: antialiased;
+  /* makes a div visible */
+  background-color: white;
+  border: 1px solid black;
+}
+
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 25px;
+  /* makes a div visible */
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.top-navigation .links .active {
+  color: #4c5058;
+  font-weight: 500;
+  /* makes a div visible */
+  background-color: cadetblue;
+  border: 1px solid black;
+}
+
+.top-navigation .links li:hover {
+  cursor: pointer;
+  color: #333333;
+  /* makes a div visible */
+  background-color: red;
+  border: 1px solid black;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+
+/* MID SECTION - PHOTO, TAGLINE, BUTTON */
+
+.introduction {
+  background-image: url('../images/first-background.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  /* makes a div visible */
+  background-color: white;
+  border: 2px solid black;
+  /* makes a div visible */
+}
+
+.content {
+  color: white;
+}
+
+button {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 14px;
+  padding: 1rem 1.5rem;
+
+  background-color: teal;
+  color: yellow;
+  width: 360px;
+}
+
